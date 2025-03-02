@@ -1,0 +1,34 @@
+root		: Starts the root
+root -l		: Starts the root
+.q		: to quit root
+.help		: help
+.?		: help
+.x m_name.C	: run the macro in root (for macro without a func.)
+.L m_name.C	: upload the macro and
+f_name()	: then run with the function name (for macro with func.)
+->		: Arrow operator is used to access members of an object
+through a pointer. When you have a pointer to an object and want to call
+its member func. or access its variables,you use arrow instead of dot.
+TBrowser w	: using the TBrowser, w is just a name.
+
+
+
+
+FILES		INFO
+macro1.C	:graph with error bars
+macro2.C	:histogram graph
+macro3.C	:histogram graph + line graph
+kanvas.C	:creates a canvas (divided in 2)
+kanvas2.C	:3-4 canvas and iterated diff graphs in each.
+macro4.C	:graph with error bars + fit
+macro5.C	:graph with error bars + fit (detailed)
+macro6.C	:graph with error bars + fit (legend added)
+errors.C	:graph with error bars in x and y
+gerrors2.C	:2 graph with error bars in x and y 
+macro7.C	:histogram+fit
+macro8.C	:histogram+fit (detailed)
+macro9.C	:2d histogram
+stack.C		:stacking histogram graphs on one graph.
+rootfileread.C	:read file and draw hist
+footfile.C	:open root file,read,write
+
